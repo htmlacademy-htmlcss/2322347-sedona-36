@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Никита Курепов](https://up.htmlacademy.ru/htmlcss/36/user/2322347).
-* Наставник: `Неизвестно`.
+- Студент: [Никита Курепов](https://up.htmlacademy.ru/htmlcss/36/user/2322347).
+- Наставник: `Оксана Вайнруб` (https://htmlacademy.ru/profile/id166797).
 
 ---
 

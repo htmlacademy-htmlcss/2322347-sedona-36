@@ -1,0 +1,36 @@
+.decoration {
+  list-style-type: none;
+}
+
+.sort {
+  height: 49px;
+  width: 292px;
+  background-color: #82b3d3;
+}
+
+.scale {
+  width: 400px;
+  height: 384px;
+  background: #82b3d3;
+}
+
+.inp {
+  width: 452px;
+  height: 52px;
+
+  /* basic/light */
+
+  background: #f2f2f2;
+}
+
+.foot-back {
+  width: 1200px;
+  height: 414.86px;
+
+  background: url(sreenivas-NayExohOnjU-unsplash.jpg);
+}
+
+.but {
+  height: 52px;
+  background-color: #82b3d3;
+}

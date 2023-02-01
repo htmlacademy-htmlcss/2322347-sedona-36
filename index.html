@@ -2,16 +2,19 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <title>HTML Academy: Седона</title>
+    <title>HTML Academy: Седон</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="images/logo.svg" alt="логотип компании Седона" />
+        <a href="index.html"
+          ><img src="images/logo.svg" alt="логотип компании Седона"
+        /></a>
       </div>
 
-      <ul class="navigation-bar">
+      <ul class="navigation-bar font-700">
         <li><a href="index.html">Главная</a></li>
         <li>О Седоне</li>
         <li><a href="catalog.html">Гостиницы</a></li>
@@ -20,52 +23,69 @@
       <nav class="ordering-bar">
         <ul class="nav-top-bar-right">
           <li class="search-button">
-            <img src="images/search.png" alt="кнопка поиска" />
+            <!-- <img src="images/search.png" alt="кнопка поиска" /> -->
           </li>
           <li class="loved-button">
-            <img
+            <!-- <img
               src="images/love.png"
               alt="кнопка для посмотра понравившихся вариантов"
             />
+          </li> -->
           </li>
-          <li class="want-here-button">want to go there</li>
+
+          <li>
+            <button type="submit" class="want-here-button">Хочу сюда!</button>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="welcome-to-sedona">
-        <img src="images/index-background.jpg" alt="величественные горы" />
-        <img src="images/welcome.png" alt="добро пожаловать в Седону" />
-        <img src="images/under-welcome.png" alt="logo" />
-        <img src="images/sedona.png" alt="name-of-the-site" />
+        <!-- <img src="images/index-background.jpg" alt="величественные горы" /> -->
+        <img src="images/index-welcome.png" alt="добро пожаловать в Седону" />
+        <!-- <img src="images/under-welcome.png" alt="logo" />
+        <img src="images/sedona.png" alt="name-of-the-site" /> -->
       </section>
       <section class="sedona-is-a-small-town">
-        <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <h2 class="sedona-explanation font-700">
+          Седона — небольшой городок в Аризоне, заслуживающий большего!
+        </h2>
+        <p class="font-400">
+          Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+        </p>
       </section>
       <section class="why-sedona-exactly">
         <div class="top-level-photos">
           <div>
             <div class="scale"></div>
-            <h3>Настоящий городок</h3>
+            <h3 class="font-700">Настоящий городок</h3>
+            <p class="font-400">
+              Седона — не аттракцион для туристов, там течёт своя жизнь
+            </p>
           </div>
           <div><img src="images/fone-2.jpg" alt="фото центра города" /></div>
         </div>
         <div class="second-level-photos">
           <div>
             <div class="scale"></div>
-            <h3>Небольшая площадь</h3>
-            <p>Все достопримечательности находятся очень близко</p>
+            <h3 class="font-700">Небольшая площадь</h3>
+            <p class="font-400">
+              Все достопримечательности находятся очень близко
+            </p>
           </div>
           <div>
             <div class="scale"></div>
-            <h3>Красивая дорога</h3>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <h3 class="font-700">Красивая дорога</h3>
+            <p class="font-400">
+              Ехать в Седону из Лас-Вегаса совсем не скучно!
+            </p>
           </div>
           <div>
             <div class="scale"></div>
-            <h3>Мало туристов</h3>
-            <p>Большинство едет в Гранд Каньон и толпится там</p>
+            <h3 class="font-700">Мало туристов</h3>
+            <p class="font-400">
+              Большинство едет в Гранд Каньон и толпится там
+            </p>
           </div>
         </div>
         <div class="third-level-photos">
@@ -77,63 +97,72 @@
           </div>
           <div>
             <div class="scale"></div>
-            <h3>Там есть мост дьявола</h3>
-            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <h3 class="font-700">Там есть мост дьявола</h3>
+            <p class="font-400">
+              Да, по нему можно пройти! Если вы осмелитесь, разумеется
+            </p>
           </div>
         </div>
       </section>
       <section class="come-to-sedona">
-        <h3>Приезжайте в Седону отдохнуть в комфорте и уюте!</h3>
-        <p>Опытный персонал и качественное обслуживание!</p>
+        <h3 class="font-700">
+          Приезжайте в Седону отдохнуть в комфорте и уюте!
+        </h3>
+        <p class="font-400">Опытный персонал и качественное обслуживание!</p>
       </section>
       <section class="what-does-sedona-have">
         <div>
           <div class="scale"></div>
-          <img src="images/house.svg" alt="" />
-          <h4>Жильё</h4>
-          <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          <!-- <img src="images/house.svg" alt="" /> -->
+          <h4 class="font-700">Жильё</h4>
+          <p class="font-400">
+            Рекомендуем пожить в настоящем мотеле, всё как в кино!
+          </p>
         </div>
         <div>
           <div class="scale"></div>
-          <img src="images/food.svg" alt="" />
-          <h4>Еда</h4>
-          <p>
+          <!-- <img src="images/food.svg" alt="" /> -->
+          <h4 class="font-700">Еда</h4>
+          <p class="font-400">
             Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
           </p>
         </div>
         <div>
           <div class="scale"></div>
-          <img src="images/present.svg" alt="" />
-          <h4>Сувениры</h4>
-          <p>Не только китайского, но и настоящего местного производства!</p>
+          <!-- <img src="images/present.svg" alt="" /> -->
+          <h4 class="font-700">Сувениры</h4>
+          <p class="font-400">
+            Не только китайского, но и настоящего местного производства!
+          </p>
         </div>
       </section>
       <section class="want-to-be-involved">
-        <h3>Заинтересовались?</h3>
-        <p>
+        <h3 class="font-700">Заинтересовались?</h3>
+        <p class="font-400">
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <h4>ПОИСК ГОСТИНИЦЫ В седоне</h4>
+        <a href="#"><h4 class="font-700">Поиск гостиницы в седоне</h4></a>
       </section>
       <section class="subscribe-on-mail">
-        <div class="foot-back"></div>
-        <h3>Подпишитесь на рассылку</h3>
-        <p>
+        <!-- <div class="foot-back"></div> -->
+        <h3 class="font-700">Подпишитесь на рассылку</h3>
+        <p class="font-400">
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <input class="inp" />
-        <button class="but">Подписаться</button>
+        <button type="submit" class="font-700">Подписаться</button>
       </section>
     </main>
     <footer>
-      <ul>
+      <!-- <ul>
         <li><img src="images/vk.png" alt="" /></li>
         <li><img src="images/tg.png" alt="" /></li>
         <li><img src="images/yt.svg" alt="" /></li>
-      </ul>
-      <h2>+7 (812) 812-12-12</h2>
-      <img src="images/htmlacademy.png" alt="" />
+      </ul> -->
+      <h2><a href="tel:+78128121212">+7 (812) 812-12-12</a></h2>
+
+      <img src="images/htmlacademy.png" />
     </footer>
   </body>
 </html>

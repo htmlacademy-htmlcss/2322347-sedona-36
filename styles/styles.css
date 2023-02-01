@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "ptsans-400";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("ptsans-400"),
+    /* Если не получилось, загрузит woff2 */ url("/fonts/ptsans-400.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "ptsans-700";
+  font-style: normal;
+  font-weight: 700;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("ptsans-700"),
+    /* Если не получилось, загрузит woff2 */ url("/fonts/ptsans-700.woff2")
+      format("woff2");
+}
+
+.font-400 {
+  font-family: ptsans-400;
+}
+
+.font-700 {
+  font-family: ptsans-700;
+}
